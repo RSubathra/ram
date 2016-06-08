@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+int n;
+char a[50];
+printf("Enter the string");
+gets(a);
+n=atoi(a);
+printf("the string conversion is:%d",n);
+return 0;
+}
